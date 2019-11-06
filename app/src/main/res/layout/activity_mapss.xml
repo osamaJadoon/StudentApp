@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    andriod:layout_width="match_parent"
+    andriod:layout_height="match_parent"
+    xmlns:andriod="http://schemas.android.com/apk/res/android"
+    andriod:orientation="vertical">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivityS" />
+
+    <LinearLayout
+        andriod:layout_width="wrap_content"
+        andriod:layout_height="wrap_content"
+        andriod:layout_gravity="bottom|end"
+        andriod:nestedScrollingEnabled="true"
+        andriod:layout_marginTop="-60dp"
+        andriod:orientation="horizontal">
+
+
+        <!--<Button-->
+            <!--andriod:id="@+id/button"-->
+            <!--andriod:layout_width="match_parent"-->
+            <!--andriod:layout_height="wrap_content"-->
+            <!--andriod:layout_marginStart="20dp"-->
+            <!--andriod:layout_marginEnd="10dp"-->
+            <!--andriod:layout_weight="1"-->
+            <!--andriod:textColor="@color/dblack"-->
+            <!--andriod:onClick="PickMeBtn"-->
+            <!--andriod:padding="10dp"-->
+            <!--andriod:background="@drawable/border"-->
+            <!--andriod:text="@string/pickMe" />-->
+
+        <Button
+            andriod:id="@+id/button2"
+            andriod:layout_width="wrap_content"
+            andriod:layout_height="wrap_content"
+            andriod:layout_marginStart="10dp"
+            andriod:layout_marginEnd="20dp"
+            andriod:textColor="@color/dblack"
+            andriod:onClick="DriverLocationBtn"
+            andriod:background="@drawable/border"
+            andriod:padding="10dp"
+            andriod:layout_gravity="end"
+            andriod:text="@string/driverLocation" />
+
+    </LinearLayout>
+
+</LinearLayout>

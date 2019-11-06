@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">StudentApp</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="signup">Sign Up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="student_login">Student Login</string>
+    <string name="login">login</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="resetemail">example@something.com</string>
+    <string name="submit">SUBMIT</string>
+    <string name="title_activity_drivers_maps">Map</string>
+    <string name="show_password">Show Password</string>
+    <string name="hide_password">Hide Password</string>
+    <string name="enter_email">Enter your registered Email Id to reset your password</string>
+    <string name="already">Already have account!</string>
+    <string name="create_account">Create account</string>
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+    <string name="roll_nu">Roll No</string>
+    <string name="department">Department</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="register">Register</string>
+    <string name="driverLocation">Driver Location</string>
+    <string name="pickMe">Pick Me</string>
+</resources>
